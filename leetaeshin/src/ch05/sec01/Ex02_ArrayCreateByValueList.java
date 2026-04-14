@@ -21,10 +21,10 @@ public class Ex02_ArrayCreateByValueList {
         */
 
         //연습
-
         int[] scores = {83,90,87};
-
+        
         int sum = 0;
+
         for(int i=0; i<3; i++){
             System.out.println("scores[" + i + "] : " + scores[i]);
             sum += scores[i];
