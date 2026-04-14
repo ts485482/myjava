@@ -74,6 +74,5 @@ public class Practice {
         System.out.println("\n수고하셨습니다!");
         System.out.println();
         
-        scanner.close();
     }
 }
