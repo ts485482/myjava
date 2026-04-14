@@ -1,6 +1,6 @@
 package ch05.sec01;
 
-public class Ex04_ArrayLength {
+public class Ex05_ArrayLength {
     public static void main(String[] args) {
         int[] scores = {83,90,87};
 
