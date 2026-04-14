@@ -1,9 +1,10 @@
 package ch05.sec01;
 
-public class Ex02_ArrayCreateByValueList {
+public class Ex02_ArrayCreateByValueList1 {
     public static void main(String[] args) {
         /* 예제
         
+        //리터럴배열 생성
         int[] scores={83,90,87};
         
         System.out.println("scores[0] : " + scores[0]);
