@@ -1,11 +1,13 @@
 package ch06.sec03;
 
 public class Car {
+    //필드
     String company = "현대자동차";
     String model;
     String color;
     int maxSpeed;
 
+    //생성자
     //각각 인스턴스 객체로, 각각의 주소값이 다 다름
     Car(){        
     }
