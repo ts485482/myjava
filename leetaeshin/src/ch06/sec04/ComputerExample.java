@@ -14,13 +14,13 @@ public class ComputerExample {
         System.out.println("result2 : " + result2);
         */
 
-         //더 좋은 방식
-         int[] values2 = new int[] {1,2,3,4,5};
-         int result2 = myCom.sum1(values2);
-         System.out.println("result2 : " + result2);
+        //더 좋은 방식
+        int[] values2 = new int[] {1,2,3,4,5};
+        int result2 = myCom.sum1(values2);
+        System.out.println("result2 : " + result2);
 
 
-        //가변적 처리(거의 사용 X)
+        //result3, result4 - 가변적 처리(거의 사용 X)
         int result3 = myCom.sum2(1,2,3);
         System.out.println("result3 : " + result3);
 
