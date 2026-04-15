@@ -2,34 +2,33 @@ package ch06.sec03;
 
 public class Car {
     //필드
-    String company = "현대자동차";
-    String model;
-    String color;
-    int maxSpeed;
+    int gas;
 
     //생성자
-    //각각 인스턴스 객체로, 각각의 주소값이 다 다름
-    Car(){        
+
+    //메소드
+    void setGas(int gas){
+        this.gas = gas;
     }
 
-    Car(String model){
-        //this.model = model;
-        
-        //아래에 있는 Car(String model, String color, int maxSpeed) 에게 떠넘김
-        this(model,null,0);
+    boolean isLeftGas(){
+        if(gas == 0){
+            System.out.println("gas가 부족합니다.");
+            return false;
+        }
+        System.out.println("gas가 남아있습니다.");
+        return true;
     }
 
-    Car(String model, String color){
-        //this.model = model;
-        //this.color = color;
-        
-        //아래에 있는 Car(String model, String color, int maxSpeed) 에게 떠넘김
-        this(model,color,0);
-    }
-
-    Car(String model, String color, int maxSpeed){
-        this.model = model;
-        this.color = color;
-        this.maxSpeed = maxSpeed;
+    void run(){
+        while(true){
+            if(gas>0){
+                System.out.println("달립니다. (gas 잔량 : " + gas + ")");
+                gas -= 1;
+            } else{
+                System.out.println("멈춥니다. (gas 잔량 : " + gas + ")");
+                return;
+            }
+        }
     }
 }

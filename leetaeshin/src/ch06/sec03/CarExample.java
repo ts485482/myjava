@@ -2,30 +2,21 @@ package ch06.sec03;
 
 public class CarExample {
     public static void main(String[] args) {
-        Car car1 = new Car();
-        System.out.println("car1.company : " + car1.company);
-        System.out.println("car1 주소 : " + car1);
-        System.out.println();
+        Car myCar = new Car();
 
-        Car car2 = new Car("자가용");
-        System.out.println("car2.company : " + car2.company);
-        System.out.println("car2.model : " + car2.model);
-        System.out.println("car2 주소 : " + car2);
-        System.out.println();
-        
-        Car car3 = new Car("자가용", "빨강");
-        System.out.println("car3.company : " + car3.company);
-        System.out.println("car3.model : " + car3.model);
-        System.out.println("car3.color : " + car3.color);
-        System.out.println("car3 주소 : " + car3);
-        System.out.println();
-        
-        Car car4 = new Car("택시", "검정", 200);
-        System.out.println("car4.company : " + car4.company);
-        System.out.println("car4.model : " + car4.model);
-        System.out.println("car4.color : " + car4.color);
-        System.out.println("car4.maxSpeed : " + car4.maxSpeed);
-        System.out.println("car4 주소 : " + car4);
-        System.out.println();
+        myCar.setGas(5);        //Car의 setGas() 메소드 호출
+
+        boolean gasState = myCar.isLeftGas();   //Car의 isLeftGas() 메소드 호출
+        if(gasState){
+            System.out.println("출발합니다.");
+            myCar.run();        //Car의 run() 메소드 호출
+        }
+
+        if(myCar.isLeftGas()){  //Car의 isLeftGas() 메소드 호출
+            System.out.println("gas를 주입할 필요가 없습니다.");
+        }else{
+            System.out.println("gas를 주입해주세요.");
+        }
+
     }
 }
