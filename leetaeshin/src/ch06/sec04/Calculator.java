@@ -8,10 +8,22 @@ public class Calculator {
     //생성자
     //메소드
     int plus(int x, int y){
-        int result = x + y;
-        return result;
+        return x + y;
     }
 
+    //오버로딩 (같은 이름의 메소드를 여러개 선언)
+    //오버로딩 조건 : 매개변수의 타입, 개수, 순서가 달라야함
+    
+    double plus(double x, int y){
+        return x + y;
+    }
+    double plus(int x, double y){
+        return x + y;
+    }
+    double plus(double x, double y){
+        return x + y;
+    }
+    
     double avg(int x, int y){
         double sum = plus(x,y);
         double result = sum / 2;
