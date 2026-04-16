@@ -1,4 +1,4 @@
-package ch07.OverrideAndSuper;
+package ch07.sec04.OverrideAndSuper;
 
 public class Airplane {
     public void land(){

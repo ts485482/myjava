@@ -1,4 +1,4 @@
-package ch07.OverrideAndSuper;
+package ch07.sec04.OverrideAndSuper;
 
 public class SupersonicAirplane extends Airplane{
     public static final int NORMAL = 1;

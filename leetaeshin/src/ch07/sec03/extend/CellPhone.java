@@ -1,4 +1,4 @@
-package ch07.extend;
+package ch07.sec03.extend;
 
 public class CellPhone {
     //부모 클래스

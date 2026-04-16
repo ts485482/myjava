@@ -1,4 +1,4 @@
-package ch07.extend;
+package ch07.sec03.extend;
 
 public class DmbCellphoneExample {
     public static void main(String[] args) {

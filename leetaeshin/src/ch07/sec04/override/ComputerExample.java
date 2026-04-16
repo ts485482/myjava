@@ -1,4 +1,4 @@
-package ch07.override;
+package ch07.sec04.override;
 
 public class ComputerExample {
     public static void main(String[] args) {

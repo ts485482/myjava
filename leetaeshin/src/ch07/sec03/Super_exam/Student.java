@@ -1,4 +1,4 @@
-package ch07.Super_exam;
+package ch07.sec03.Super_exam;
 
 public class Student extends People {
     //자식 클래스
