@@ -1,4 +1,4 @@
-package ch06.sec08.package1;
+package ch06.sec13.package1;
 
 public class B2 {
     public B2(){

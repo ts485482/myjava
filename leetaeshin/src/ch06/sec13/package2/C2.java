@@ -1,6 +1,6 @@
-package ch06.sec08.package2;
+package ch06.sec13.package2;
 
-import ch06.sec08.package1.A2;
+import ch06.sec13.package1.A2;
 
 public class C2 {
     public C2(){
