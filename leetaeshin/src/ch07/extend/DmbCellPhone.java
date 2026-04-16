@@ -2,7 +2,7 @@ package ch07.extend;
 
 public class DmbCellPhone extends CellPhone {
     //자식 클래스
-    //필드
+    //필드(default)
     int channel;
 
     //생성자
@@ -12,7 +12,7 @@ public class DmbCellPhone extends CellPhone {
         this.channel = channel;
     }
 
-    //메소드
+    //메소드(default)
     void turnOnBmb(){
         System.out.println("채널 " + channel + "번 Dmb 방송 수신을 시작합니다.");
     }
