@@ -1,4 +1,4 @@
-package ch06.sec14;
+package ch06.sec14.getter_setter;
 
 public class Car {
     //필드

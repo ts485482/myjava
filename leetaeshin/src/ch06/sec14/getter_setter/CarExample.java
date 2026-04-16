@@ -1,4 +1,4 @@
-package ch06.sec14;
+package ch06.sec14.getter_setter;
 
 public class CarExample {
     public static void main(String[] args) {

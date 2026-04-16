@@ -1,4 +1,4 @@
-package ch06.sec13.package1;
+package ch06.sec13.field_method_access.package1;
 
 public class A2 {
     //필드

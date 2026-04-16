@@ -1,4 +1,4 @@
-package ch06.sec13.package1;
+package ch06.sec13.constructor_access.package1;
 
 public class A {
     //접근제어자 연습(A.java/B.java/C.java)
