@@ -1,5 +1,5 @@
-package ch11.sec03_01;
-
+package ch11.sec03_ThinClone;
+//인터페이스 Cloneable 구현
 public class Member implements Cloneable {
     public String id;
     public String name;

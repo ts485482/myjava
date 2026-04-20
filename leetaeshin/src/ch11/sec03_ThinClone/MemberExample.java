@@ -1,4 +1,4 @@
-package ch11.sec03_01;
+package ch11.sec03_ThinClone;
 
 public class MemberExample {
     public static void main(String[] args) {
