@@ -1,4 +1,4 @@
-package ch10;
+package ch10.sec03;
 
 public class TryCatchFinallyRuntimeExceptionExample {
     public static void main(String[] args) {

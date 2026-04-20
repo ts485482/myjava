@@ -1,4 +1,4 @@
-package ch10;
+package ch10.sec04;
 
 public class CatchOrder {
     public static void main(String[] args) {
