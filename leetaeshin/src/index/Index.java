@@ -15,6 +15,7 @@ public class Index{
             System.out.println("1. 도서 등록");
             System.out.println("2. 도서 목록 조회");
             System.out.println("3. 저장 및 종료");
+            System.out.println("4. 저장하지 않고 종료(신중히 선택해주세요)");
             System.out.print("메뉴 선택 >> ");
             int choice = sc.nextInt();
             sc.nextLine();
@@ -35,6 +36,7 @@ public class Index{
                 manager.addItem(new Book(id,title,author));
                 
                 System.out.println("결과 : 성공적으로 등록되었습니다.");
+                System.out.println("================================");
                 System.out.println();
             }
             else if(choice == 2){
@@ -47,6 +49,10 @@ public class Index{
             else if(choice == 3){
                 manager.saveToFile();
                 System.out.println("프로그램을 종료합니다.");
+                return;
+            }
+            else if(choice == 4){
+                System.out.println("저장하지않고 프로그램을 종료합니다.");
                 return;
             }
             else {
