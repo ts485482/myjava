@@ -2,7 +2,7 @@ package index;
 
 import java.util.Scanner;
 
-public class BookTest{
+public class Index{
     public static void main(String[] args) throws Exception {
         Library manager = new Library();
         Scanner sc = new Scanner(System.in);

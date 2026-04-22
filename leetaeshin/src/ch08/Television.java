@@ -23,4 +23,7 @@ public class Television implements Remotecontrol{
         }
         System.out.println("현재 TV 볼륨 : " + volume);
     }
+    public static void changeBattery(){
+        System.out.println("건전지를 교환합니다.");
+    }
 }
